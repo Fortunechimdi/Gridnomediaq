@@ -2,6 +2,7 @@
     box-sizing: border-box;
 }
 body {
+    
     margin: 2rem; background: #000a7d;color: aliceblue;
 }
 .wrapper-grid{
@@ -13,6 +14,7 @@ body {
 #heading{font-size: 85px;font-weight: bold;
     animation:text-focus-in 1s cubic-bezier(.55,.085,.68,.53) both}
 .container{
+    font-family: 'Outfit',sans-serif;
     overflow: hidden;
     text-align: center;
     border-radius: 1rem;
@@ -30,7 +32,7 @@ h1{
     letter-spacing: 1.3px;
 }
 p{
-    font-size: 0.9rem;
+    font-size: 1.1rem;
     margin: 1.5rem 1.5rem;
 }
 #pri{color: rgb(128, 185, 185)}
@@ -54,3 +56,4 @@ p{
     align-items: center;
 }
 #eth-icon {height: 16px; width: 12px;}
+a{ text-decoration: none;color:rgb(128, 185, 185);}
