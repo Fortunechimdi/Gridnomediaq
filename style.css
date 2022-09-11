@@ -11,7 +11,7 @@ body {
 }
 @keyframes text-focus-in{0%{filter:blur(12px);opacity:0}100%{filter:blur(0);opacity:1}}
 @keyframes slide-in-fwd-bottom{0%{transform:translateZ(-1400px) translateY(800px);opacity:0}100%{transform:translateZ(0) translateY(0);opacity:1}}
-#heading{font-size: 85px;font-weight: bold;
+#heading{font-size: 75px;font-weight: bold;
     animation:text-focus-in 1s cubic-bezier(.55,.085,.68,.53) both}
 .container{
     font-family: 'Outfit',sans-serif;
@@ -48,6 +48,7 @@ p{
     font-weight: bold;
     color: rgb(128, 185, 185);
     background-color: #0b0234;
+    display: inline-block;
 }
 .price{
     padding-left: 30px; padding-right: 20px;
@@ -57,3 +58,13 @@ p{
 }
 #eth-icon {height: 16px; width: 12px;}
 a{ text-decoration: none;color:rgb(128, 185, 185);}
+
+@media only screen and ( max-width: 380px ){
+    h1{font-size: 1.8rem;}
+    p{ font-size: 1rem;}
+    .wrapper-grid{display: grid;grid-template-columns: repeat(auto-fit, 375px);}
+    #heading{font-size: 60px; margin-left: auto;margin-right: auto;} 
+
+
+    
+}
